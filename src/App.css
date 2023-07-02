@@ -1,0 +1,28 @@
+body {
+  background-image: linear-gradient(to right, rgb(46 16 101), rgb(134 25 143));
+}
+
+textarea{
+  width: 500px;
+  height: 350px;
+  overflow-y: auto;
+  resize: none !important;
+}
+
+textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.btns{
+    width: 300px;
+  }
+
+@media screen and (max-width:550px) {
+  textarea{
+    width: 280px;
+    height: 250px;
+  }
+  .btns{
+    width: 280px;
+  }
+}
